@@ -1,4 +1,4 @@
 from DashboardUtils import VitaDashboard
 
-dashboard = VitaDashboard()
+dashboard = VitaDashboard(favicon="resources/favicon.png")
 dashboard.reports_map()

@@ -3,7 +3,7 @@ import pandas as pd
 from VitakodConnector import VitakodConnector
 
 class VitaDashboard:
-    def __init__(self, title="Dados dos Sintomas", favicon= "resources/favicon.png"):
+    def __init__(self, title="Explorador de Dados", favicon= None):
         self.vk = VitakodConnector()
         st.set_page_config(page_title=title, page_icon=favicon, layout="centered", initial_sidebar_state="auto", menu_items=None)
     
